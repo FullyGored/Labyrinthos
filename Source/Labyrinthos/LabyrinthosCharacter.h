@@ -79,6 +79,12 @@ private:
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
 
+protected:
+	// Input handling
+	void MoveForward(float Value);
+	void MoveRight(float Value);
+	void Turn(float Value);
+	void LookUp(float Value);
 	// endregion
 	// -------------------------------------------------------------------------
 };

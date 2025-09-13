@@ -23,6 +23,7 @@ public:
 	// The UFUNCTION is a public interface. Correctly placed.
 	UFUNCTION(BlueprintCallable, Category = "Labyrinthos|Game Rules")
 	void PlayerCollectedOrb();
+	void OrbWasCollected();
 
 	// Constructor.
 	ALabyrinthosGameMode();

@@ -32,4 +32,12 @@ public:
 	// The 2D layout of the maze. Each element in the array is a row.
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Maze Layout")
 	TArray<FMazeRow> MazeLayout;
+
+	/**
+	 * This TArray holds the string-based layout for our maze.
+	 * Each string in the array is a row. 'W' can represent a wall, and any other character an empty space.
+	 * EditAnywhere allows us to edit this directly in the Unreal Editor after creating a Data Asset.
+	*/
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Maze Data")
+	TArray<FString> MazeRows;
 };
