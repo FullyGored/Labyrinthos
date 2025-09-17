@@ -1,8 +1,8 @@
 # Project: Labyrinthos
 
-![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.4-blueviolet)
-![Status](https://img.shields.io/badge/Status-In%20Development-orange)
-![License](https://img.shields.io/badge/License-MIT-blue)
+[![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.4-blueviolet)](https://www.unrealengine.com/en-US)
+[![Status](https://img.shields.io/badge/Status-In%20Development-orange)](https://github.com/FullyGored/PixelWarriors-Framework)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 A vertical slice project to develop a procedural maze game in Unreal Engine 5. This repository serves as the foundational proving ground for the **"PW Framework,"** a modular, C++ first architecture designed for high-performance, scalable game systems.
 
